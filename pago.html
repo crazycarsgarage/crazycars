@@ -63,6 +63,7 @@
             border-radius: 10px;
         }
     </style>
+	<script src="https://js.stripe.com/v3/"></script>
 </head>
 
 <body class="flex flex-col min-h-screen">
@@ -596,6 +597,26 @@
             e.preventDefault();
             alert("¡Pedido recibido! Redirigiendo a pasarela de pago segura...");
         });
+	const stripe = Stripe('pk_test_51T4fN01EU69eyFNQt32aZmYnhbtGJfsH0jzF5JEcsc3SaZ8OiALxqHibvk1INcrGXel95kc5GzcC0xpRAgqVIBxc001lXB1ZMW');
+
+	function procesarPago() {
+	    const carrito = JSON.parse(localStorage.getItem('crazy_cart')) || [];
+    
+	    // Enviamos el carrito a nuestro "creador de sesiones"
+	    // Nota: Necesitas un pequeño script de servidor (PHP o Node) 
+	    // para crear la sesión de forma segura con tu Clave Secreta.
+    
+	    fetch('/crear-sesion-de-pago.php', {
+	        method: 'POST',
+	        headers: { 'Content-Type': 'application/json' },
+	        body: JSON.stringify({ items: carrito })
+	    })
+	    .then(res => res.json())
+ 	   .then(session => {
+	        return stripe.redirectToCheckout({ sessionId: session.id });
+	    })
+	    .catch(error => console.error("Error:", error));
+	}
     </script>
 </body>
 </html>
