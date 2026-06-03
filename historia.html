@@ -326,9 +326,10 @@
                 <div class="bg-gray-50 p-5 rounded-2xl border border-gray-200 space-y-2">
                     <p><strong>Titular:</strong> CRAZY BUSINESS S.L.</p>
                     <p><strong>NIF:</strong> B22801138</p>
+                    <p><strong>Denominacion Comercial:</strong> Crazy Cars Garage</p>
                     <p><strong>Domicilio Social:</strong> Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid)</p>
                     <p><strong>Teléfono:</strong> 652748175</p>
-                    <p><strong>Email:</strong> anonimonaranja@gmail.com</p>
+                    <p><strong>Email:</strong> <a href="mailto:anonimonaranja@gmail.com" class="hover:text-[#40E0D0] transition">anonimonaranja@gmail.com</a></p>
                     <p class="pt-2 mt-2 border-t border-gray-200 text-gray-700">
                         <strong>Datos Registrales:</strong> Inscrita en el Registro Mercantil de Madrid, 
                         Tomo <strong>47895</strong>, Folio <strong>142</strong>, Sección <strong>8</strong>, Hoja <strong>M-845122</strong>, Inscripción 1ª.
@@ -338,7 +339,7 @@
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Propiedad Intelectual</h3>
-                <p>CRAZY BUSINESS S.L. es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma. Queda expresamente prohibida la reproducción, distribución y comunicación pública de la totalidad o parte de los contenidos con fines comerciales sin autorización expresa.</p>
+                <p>CRAZY BUSINESS S.L. bajo la marca comercial Crazy Cars Garage, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma. Queda expresamente prohibida la reproducción, distribución y comunicación pública de la totalidad o parte de los contenidos con fines comerciales sin autorización expresa.</p>
             </section>
 
             <section>
@@ -354,16 +355,16 @@
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Uso y Protección de Datos</h3>
                 <p>El acceso y uso de este sitio web atribuye la condición de USUARIO, que acepta:</p>
-                <p>Las Condiciones de Uso <button onclick="toggleModal('modalUso')" class="hover:text-[#40E0D0] transition"><strong>aquí</strong></button> reflejadas.</p>
-                <p>Nuestra Política de Privacidad a la que puede acceder <button onclick="toggleModal('modalPrivacidad')" class="hover:text-[#40E0D0] transition"><strong>aquí</strong></button>.</p>
-                <p>Nuestra Política de Cookies a la que puede acceder <button onclick="toggleModal('modalCookies')" class="hover:text-[#40E0D0] transition"><strong>aquí</strong></button>.</p>
+                <p>Las <button onclick="toggleModal('modalUso')" class="hover:text-[#40E0D0] transition">Condiciones de Uso <strong>aquí</strong> reflejadas.</button></p>
+                <p>Nuestra <button onclick="toggleModal('modalPrivacidad')" class="hover:text-[#40E0D0] transition">Política de Privacidad a la que puede acceder <strong>aquí.</strong></button></p>
+                <p>Nuestra <button onclick="toggleModal('modalCookies')" class="hover:text-[#40E0D0] transition">Política de Cookies accesible <strong>aquí.</strong></button></p>
             </section>
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Ley Aplicable y Jurisdicción</h3>
                 <p>Las presentes Condiciones de Uso se rigen e interpretan de conformidad con la legislación española vigente, en particular la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios (LGDCU), y demás normativa aplicable.</p>
                 <p>Para la resolución de cualquier controversia derivada del uso de este sitio web, las partes se someten a los Juzgados y Tribunales de Navalcarnero (Madrid), salvo que la normativa de protección de consumidores establezca un fuero distinto en favor del usuario.</p>
-                <p>Asimismo, le informamos de la existencia de la plataforma europea de resolución de litigios en línea, accesible en https://ec.europa.eu/consumers/odr/, a disposición de los consumidores de la Unión Europea.</p>
+                <p>Asimismo, le informamos de la existencia de la plataforma europea de resolución de litigios en línea, accesible en <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" class="text-[#40E0D0] hover:underline font-bold">https://ec.europa.eu/consumers/odr/</a>, a disposición de los consumidores de la Unión Europea.</p>
             </section>
         </div>
         
@@ -375,57 +376,52 @@
 
 <div id="modalUso" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
     <div class="bg-white text-gray-800 max-w-4xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
+        
+        <!-- Cabecera del Modal -->
         <div class="p-6 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
-            <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Condiciones de Uso</h2>
-            <button onclick="toggleModal('modalUso')" class="text-gray-400 hover:text-black text-3xl transition">×</button>
+            <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Condiciones de Uso Web</h2>
+            <button onclick="toggleModal('modalUsoWeb')" class="text-gray-400 hover:text-black text-3xl transition" aria-label="Cerrar condiciones de uso">×</button>
         </div>
         
+        <!-- Contenido del Modal -->
         <div class="p-6 md:p-10 text-sm space-y-6 text-justify modal-content overflow-y-auto" style="max-height: 70vh;">
+            
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Obligaciones y Responsabilidad del Usuario</h3>
                 <p>El usuario se compromete a utilizar los servicios y contenidos del portal de forma diligente, correcta y lícita. Queda terminantemente prohibido:</p>
                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                    <li>Utilizar los contenidos con fines contrarios a la ley, la moral y las buenas costumbres.</li>
-                    <li>Reproducir, copiar o distribuir los servicios sin autorización expresa del titular.</li>
-                    <li>Vulnerar derechos de propiedad intelectual o industrial de CRAZY BUSINESS S.L. o terceros.</li>
-                    <li>Emplear la información del portal para remitir publicidad o comunicaciones comerciales no solicitadas.</li>
+                    <li>Utilizar los contenidos con fines contrarios a la ley, la moral, las buenas costumbres o el orden público.</li>
+                    <li>Reproducir, copiar, hackear o distribuir los elementos de la web sin autorización expresa del titular.</li>
+                    <li>Vulnerar derechos de propiedad intelectual o industrial de CRAZY BUSINESS S.L. o de terceros.</li>
+                    <li>Emplear los formularios o la información del portal para remitir publicidad o comunicaciones comerciales no solicitadas (spam).</li>
                 </ul>
-                <p>El usuario responderá de los daños y perjuicios que la empresa pueda sufrir por incumplimiento de estas obligaciones.</p>
+                <p class="mt-2">El usuario responderá de los daños y perjuicios de cualquier naturaleza que la empresa pueda sufrir como consecuencia del incumplimiento de estas obligaciones.</p>
             </section>
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Propiedad Intelectual sobre Comentarios y Opiniones</h3>
-                <p>Los usuarios que envíen comentarios autorizan a CRAZY BUSINESS S.L. para su reproducción, distribución y comunicación pública, a título gratuito, sin limitación territorial y por todo el tiempo de protección legal. La empresa se reserva el derecho de no publicar comentarios contrarios a la ley o la dignidad de terceros.</p>
+                <p>Los usuarios que participen en la web enviando comentarios o contenidos autorizan a CRAZY BUSINESS S.L. para su reproducción, distribución y comunicación pública gratuita, a nivel mundial y por todo el tiempo de protección legal establecido. La empresa se reserva el derecho de retirar de forma unilateral todos aquellos comentarios que vulneren la ley, el respeto a la dignidad de la persona o los derechos de terceros.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Reserva de Derechos</h3>
-                <p>CRAZY BUSINESS S.L. se reserva la facultad de interrumpir el acceso al portal o excluir al usuario en caso de conductas contrarias a las reglas internas o que puedan perturbar el buen funcionamiento o imagen de la marca.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Reserva de Derechos y Exclusión de Responsabilidad</h3>
+                <p>CRAZY BUSINESS S.L. se reserva la facultad de interrumpir, denegar o retirar el acceso al portal de forma temporal o definitiva a cualquier usuario que incumpla estas reglas, sin necesidad de previo aviso. Asimismo, el titular no se hace responsable de las interrupciones del servicio, virus informáticos o problemas de conexión ajenos a su control directo.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Modificación de Condiciones</h3>
-                <p>CRAZY BUSINESS S.L. se reserva el derecho de modificar estas condiciones, y el uso continuado de la web implica su aceptación por parte del usuario. Para cambios sustanciales, se notificará a los usuarios con antelación razonable.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Modificación de las Condiciones</h3>
+                <p>CRAZY BUSINESS S.L. se reserva el derecho de modificar y actualizar los contenidos y las presentes condiciones de uso de la web según las necesidades de la plataforma o novedades legislativas. El uso de la web tras la publicación de dichas modificaciones implica su aceptación implícita por parte del usuario.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Veracidad de Datos</h3>
-                <p>El usuario garantiza que es mayor de 18 años y que los datos facilitados para el proceso de compra son veraces y actuales. Los menores de 18 años no podrán realizar compras sin el consentimiento expreso de sus padres o tutores legales. CRAZY BUSINESS S.L. no se hace responsable de errores en la entrega derivados de información incorrecta proporcionada por el usuario.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Ley Aplicable y Jurisdicción</h3>
+                <p>Las presentes Condiciones de Uso se rigen e interpretan de conformidad con la legislación española vigente, en particular la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), y demás normativas complementarias de protección de datos y propiedad intelectual.</p>
+                <p class="mt-2">Para la resolución de cualquier controversia derivada de la mera navegación o uso general de los servicios informativos de este sitio web, las partes se someten a los Juzgados y Tribunales de Navalcarnero (Madrid), salvo que la ley general de consumidores y usuarios aplicable estipule un fuero imperativo diferente.</p>
             </section>
-
-            <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Disponibilidad y Precios</h3>
-                <p>Los precios de los artículos de nuestro catálogo incluyen IVA. El IVA será desglosado al finalizar la compra. Los precios y disponibilidad de productos pueden variar sin previo aviso.</p>
-            </section>
-
-            <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">7. Ley Aplicable y Jurisdicción</h3>
-                <p>Las presentes Condiciones de Uso se rigen e interpretan de conformidad con la legislación española vigente, en particular la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios (LGDCU), y demás normativa aplicable.</p>
-                <p>Para la resolución de cualquier controversia derivada del uso de este sitio web, las partes se someten a los Juzgados y Tribunales de Navalcarnero (Madrid), salvo que la normativa de protección de consumidores establezca un fuero distinto en favor del usuario.</p>
-                <p>Asimismo, le informamos de la existencia de la plataforma europea de resolución de litigios en línea, accesible en https://ec.europa.eu/consumers/odr/, a disposición de los consumidores de la Unión Europea.</p>
-            </section>
+            
         </div>
         
+        <!-- Pie del Modal -->
         <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl">
             <button onclick="toggleModal('modalUso')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Aceptar y cerrar</button>
         </div>
@@ -434,245 +430,344 @@
 
 <div id="modalPrivacidad" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
     <div class="bg-white text-gray-800 max-w-4xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
+        
+        <!-- Cabecera -->
         <div class="p-6 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
             <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Política de Privacidad</h2>
-            <button onclick="toggleModal('modalPrivacidad')" class="text-gray-400 hover:text-black text-3xl transition">×</button>
+            <button onclick="toggleModal('modalPrivacidad')" class="text-gray-400 hover:text-black text-3xl transition" aria-label="Cerrar política de privacidad">×</button>
         </div>
         
+        <!-- Cuerpo del Modal -->
         <div class="p-6 md:p-10 text-sm space-y-6 text-justify modal-content overflow-y-auto" style="max-height: 70vh;">
+            
+            <!-- Tabla de Información Básica (Primera Capa) -->
             <div class="bg-gray-50 border-2 border-gray-200 rounded-xl overflow-hidden mb-8">
-                <div class="bg-gray-200 p-2 font-bold text-center uppercase text-xs tracking-widest">Información Básica sobre Protection de Datos</div>
+                <div class="bg-gray-200 p-2 font-bold text-center uppercase text-xs tracking-widest text-gray-700">Información Básica sobre Protección de Datos</div>
                 <table class="w-full text-xs">
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100 w-1/3">Responsable</td>
-                        <td class="p-3">CRAZY BUSINESS S.L.</td>
+                        <td class="p-3"><strong>CRAZY BUSINESS S.L.</strong> (NIF: B22801138). Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid).</td>
                     </tr>
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100">Finalidad</td>
-                        <td class="p-3">Gestión de servicios de taller, venta de productos y envío de comunicaciones comerciales.</td>
+                        <td class="p-3">Gestión de consultas, servicios de taller, tramitación de pedidos/ventas en la web y, únicamente si nos otorga su consentimiento, el envío de comunicaciones comerciales.</td>
                     </tr>
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100">Legitimación</td>
-                        <td class="p-3">Ejecución de contrato (servicios) y Consentimiento del interesado (publicidad).</td>
+                        <td class="p-3">Ejecución de relación contractual (pedidos/taller), interés legítimo (atención de consultas) y consentimiento expreso del interesado (publicidad).</td>
                     </tr>
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100">Destinatarios</td>
-                        <td class="p-3">No se ceden datos a terceros, salvo obligación legal o proveedores de transporte.</td>
+                        <td class="p-3">No se cederán datos a terceros salvo obligación legal, agencias de transporte para la entrega del pedido y encargados esenciales del tratamiento (hosting, pasarelas de pago).</td>
                     </tr>
                     <tr>
                         <td class="p-3 font-bold bg-gray-100">Derechos</td>
-                        <td class="p-3">Acceso, rectificación, supresión y otros derechos explicados en la información adicional.</td>
+                        <td class="p-3">Acceso, rectificación, supresión, limitación, portabilidad y oposición, tal como se detalla en la información adicional.</td>
                     </tr>
                 </table>
             </div>
 
+            <!-- Información Adicional (Segunda Capa) -->
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Contacto para Privacidad</h3>
-                <p>Para cualquier cuestión relacionada con el tratamiento de sus datos personales o para ejercer sus derechos, puede contactar directamente con nuestro responsable de privacidad a través del correo electrónico: <strong>anonimonaranja@gmail.com</strong>.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Contacto para el Ejercicio de Derechos</h3>
+                <p>Para cualquier consulta relativa al tratamiento de sus datos personales o para ejercer los derechos que le otorga el RGPD, puede dirigirse por escrito al domicilio postal de la empresa o mediante correo electrónico a: <strong>anonimonaranja@gmail.com</strong>.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Bases Legítimas del Tratamiento</h3>
-                <p>Tratamos sus datos bajo dos fundamentos legales distintos dependiendo de la interacción:</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Detalle y Base Legítima del Tratamiento</h3>
+                <p>CRAZY BUSINESS S.L. bajo la marca comercial Crazy Cars Garage, trata los datos recabados en función de las siguientes bases legales:</p>
                 <ul class="list-disc ml-5 mt-2 space-y-2">
-                    <li><strong>Ejecución de Contrato:</strong> Para la gestión de reparaciones, pedidos y facturación, es obligatorio que nos facilite su <strong>nombre, apellidos, teléfono y dirección completa</strong>. Sin estos datos, no podríamos prestarle el servicio solicitado.</li>
-                    <li><strong>Interés Legítimo y Consentimiento:</strong> Para el envío de ofertas personalizadas, newsletters o el análisis de uso de la web, solicitaremos su consentimiento previo. El resto de datos no obligatorios se tratarán bajo esta base.</li>
+                    <li><strong>Ejecución de Contrato o Medidas Precontractuales:</strong> Tratamos su nombre, apellidos, teléfono, dirección y datos fiscales para tramitar sus compras, gestionar los servicios de taller solicitados y emitir las correspondientes facturas. Facilitar estos datos es un requisito obligatorio; en caso contrario, no se podrá celebrar el servicio.</li>
+                    <li><strong>Consentimiento del Interesado:</strong> Solicitaremos su autorización previa e independiente mediante casillas de verificación (checkboxes) activas para el envío de boletines informativos, ofertas comerciales o instalación de cookies analíticas. Este consentimiento puede ser revocado en cualquier momento sin efectos retroactivos.</li>
+                    <li><strong>Interés Legítimo:</strong> Tratamos los datos de contacto facilitados en los formularios de consulta para responder a sus dudas o incidencias técnicas.</li>
                 </ul>
             </section>
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Conservación de Datos</h3>
-                <p>Los datos personales proporcionados para la ejecución del contrato se conservarán mientras se mantenga la relación comercial y, posteriormente, durante los plazos exigidos por la legislación fiscal y civil para la atención de posibles responsabilidades.</p>
+                <p>Los datos de navegación y consultas se conservarán durante los plazos estrictamente necesarios para cumplir su finalidad. Los datos comerciales y de facturación derivados de una compra o servicio de taller se conservarán bloqueados durante los plazos legales prescritos por la normativa mercantil y fiscal española (generalmente 6 años por el Código de Comercio) para atender posibles responsabilidades derivadas del tratamiento.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Derechos del Interesado</h3>
-                <p>Usted tiene derecho a obtener confirmación sobre si estamos tratando sus datos. Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y portabilidad enviando un e-mail a la dirección arriba indicada acompañando copia de su DNI.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Derechos del Usuario y Reclamaciones</h3>
+                <p>Como interesado, usted tiene pleno derecho a acceder a sus datos, solicitar su rectificación cuando sean inexactos, exigir su supresión ("derecho al olvido"), limitar u oponerse al tratamiento, así como solicitar la portabilidad de sus datos. Para ejercerlos, basta con enviar una solicitud firmada a los canales de contacto del punto 1 indicando el derecho que desea aplicar.</p>
+                <p class="mt-2 text-amber-700 bg-amber-50 p-3 rounded-lg border border-amber-200">
+		<strong>Información de control de la AEPD:</strong> En caso de que considere que sus derechos no han sido debidamente atendidos por nuestra parte, tiene el derecho constitucional de presentar una reclamación ante la Autoridad de Control competente, que en España es la <strong>Agencia Española de Protección de Datos (AEPD)</strong> a través de su sede electrónica (<a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer" class="text-[#40E0D0] hover:underline font-bold">www.aepd.es</a>)
+                </p>
             </section>
         </div>
         
+        <!-- Pie del Modal -->
         <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl">
-            <button onclick="toggleModal('modalPrivacidad')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Entendido</button>
+            <button onclick="toggleModal('modalPrivacidad')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg" aria-label="Entendido, cerrar política de privacidad">Entendido y cerrar</button>
         </div>
     </div>
 </div>
 
 <div id="modalReparacion" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
     <div class="bg-white text-gray-800 max-w-5xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
+        
+        <!-- Cabecera del Modal -->
         <div class="p-6 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
             <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Condiciones de Taller y Reparación</h2>
-            <button onclick="toggleModal('modalReparacion')" class="text-gray-400 hover:text-black text-3xl transition">×</button>
+            <button onclick="toggleModal('modalReparacion')" class="text-gray-400 hover:text-black text-3xl transition" aria-label="Cerrar condiciones de taller">×</button>
         </div>
         
+        <!-- Cuerpo de las Condiciones -->
         <div class="p-6 md:p-10 text-sm space-y-6 text-justify modal-content overflow-y-auto" style="max-height: 75vh;">
+            
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Aplicación y Resguardo de Depósito</h3>
-                <p>Estas condiciones regulan los servicios de chapa, pintura y mecánica prestados por <strong>CRAZY BUSINESS S.L.</strong> (CIF B22801138) en nuestro centro de Serranillos del Valle. La entrega del vehículo implica la aceptación de estas condiciones y la firma del Resguardo de Depósito/Orden de Trabajo.</p>
+                <p>Las presentes condiciones regulan los servicios de chapa, pintura y mecánica prestados por <strong>CRAZY BUSINESS S.L.</strong> (con NIF B22801138), operando bajo la marca comercial <strong>Crazy Cars Garage</strong> en nuestro centro de Serranillos del Valle (Madrid). La entrega del vehículo en nuestras instalaciones implica la aceptación de estas condiciones y conlleva la emisión y firma obligatoria del Resguardo de Depósito y Orden de Trabajo.</p>
             </section>
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Presupuestos y Diagnóstico</h3>
-                <p>Las estimaciones iniciales se basan en la información del cliente. Si al desmontar el vehículo (especialmente en trabajos de chapa tras un siniestro) aparecen daños ocultos, se informará al cliente y solo se procederá tras su aceptación del nuevo presupuesto. Los presupuestos tienen una validez de 12 días hábiles.</p>
+                <p>Todo usuario tiene derecho a un presupuesto escrito con una validez mínima de **12 días hábiles** (Art. 14 R.D. 1457/1986). Las estimaciones iniciales se realizan bajo la información aportada por el cliente. Si durante el desmontaje del vehículo (especialmente en reparaciones de chapa o siniestros estructurales) aparecieran daños ocultos o averías complementarias, se suspenderán los trabajos para informar de inmediato al cliente, detallando el importe de la variación. Las reparaciones solo se reanudarán tras la aceptación expresa del nuevo presupuesto.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Custodia y Abandono</h3>
-                <p>El depósito del vehículo está incluido en el precio de reparación. Una vez terminada la reparación y avisado el cliente, este dispone de <strong>3 días hábiles</strong> para recoger el coche. A partir del cuarto día, se devengarán gastos de estancia y custodia según las tarifas vigentes del taller.</p>
-                <p class="text-red-600 font-bold">Importante: Crazy Cars Garage no se hace responsable de objetos personales dejados en el interior del vehículo.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Custodia, Recogida y Gastos de Estancia</h3>
+                <p>El depósito del vehículo está incluido en el coste del servicio durante la ejecución de la reparación. Conforme al artículo 15 del R.D. 1457/1986, una vez finalizados los trabajos o rechazado un presupuesto, y **tras haber sido comunicado de forma fehaciente al cliente**, este dispondrá de un plazo de **3 días hábiles** para la recogida de su vehículo. A partir del cuarto día hábil, se devengarán gastos de estancia y custodia según las tarifas oficiales expuestas en el tablón del taller.</p>
+                <p class="mt-2 text-amber-700 bg-amber-50 p-3 rounded-lg border border-amber-200 text-xs text-justify">
+                    <strong>Aviso sobre objetos en el vehículo:</strong> De acuerdo con el deber de custodia del Código Civil, el taller responde por el vehículo y sus elementos fijos incorporados. Se ruega encarecidamente a los usuarios retirar los objetos personales de valor no integrados de fábrica en el vehículo previos a su entrega, ya que el taller no puede auditar el inventario de enseres sueltos en el habitáculo.
+                </p>
             </section>
 
             <section>
                 <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Garantía de Reparación</h3>
-                <p>Todas nuestras reparaciones están garantizadas por <strong>3 meses o 2.000 kilómetros</strong> (lo que antes suceda), conforme al R.D. 1457/1986. Las piezas nuevas instaladas cuentan con la garantía legal de 3 años otorgada por el fabricante. La garantía se anula si el vehículo es manipulado por terceros tras nuestra intervención.</p>
+                <p>Todas las reparaciones efectuadas por nuestro personal están garantizadas por **3 meses o 2.000 kilómetros recorridos** (lo que antes suceda), contados desde la fecha de entrega del vehículo y de acuerdo con el R.D. 1457/1986. Las piezas de repuesto nuevas instaladas disfrutan de la garantía de **3 años** amparada por la Ley General de Defensa de los Consumidores y Usuarios frente a defectos de fabricación. La garantía del taller quedará invalidada si el defecto es causado por una manipulación posterior de terceros o un uso indebido del vehículo.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Piezas de Repuesto</h3>
-                <p>El cliente tiene derecho a recuperar las piezas sustituidas siempre que lo solicite al depositar el vehículo. En caso contrario, Crazy Cars Garage procederá a su gestión como residuo según la normativa medioambiental. Nos reservamos el derecho de no instalar piezas aportadas por el cliente si estas comprometen la seguridad vial.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Piezas de Repuesto y Gestión Medioambiental</h3>
+                <p>El taller está obligado a entregar al cliente las piezas que hayan sido sustituidas siempre y cuando este lo solicite de manera expresa antes de comenzar la reparación. En caso contrario, o si el cliente renuncia a ellas, las piezas serán gestionadas y procesadas como residuo industrial conforme a la legislación medioambiental vigente. Crazy Business S.L. se reserva el derecho técnico de no instalar piezas externas aportadas de forma independiente por el cliente si estas comprometen la homologación o la seguridad vial del vehículo.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Pruebas y Seguro</h3>
-                <p>Al firmar el resguardo, el cliente autoriza a realizar las pruebas en carretera necesarias para verificar la reparación. El cliente declara que el vehículo dispone de Seguro de Responsabilidad Civil obligatorio en vigor.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Pruebas dinámicas en carretera</h3>
+                <p>La firma de la orden de trabajo autoriza expresamente a los operarios del taller a realizar las pruebas dinámicas en carretera abierta que resulten estrictamente necesarias para la diagnosis o la comprobación del resultado de la reparación. El cliente garantiza que el vehículo cuenta con el Seguro de Responsabilidad Civil de suscripción obligatoria y la ITV en vigor.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">7. Pago y Retención</h3>
-                <p>El pago se realizará mediante tarjeta, efectivo (dentro de los límites legales) o transferencia antes de retirar el vehículo. Conforme al Art. 1.780 del Código Civil, el taller podrá retener el vehículo hasta que la factura sea abonada íntegramente.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">7. Formas de Pago y Derecho de Retención</h3>
+                <p>El importe total de la factura deberá ser liquidado de forma íntegra mediante tarjeta de crédito/débito, transferencia bancaria verificada o efectivo (conforme a los límites legales contra el fraude fiscal) de manera previa a la retirada del vehículo. En virtud del artículo 1.600 y 1.780 del Código Civil, el taller se reserva el derecho de retención del vehículo en prenda hasta que la totalidad del importe facturado por los servicios prestados sea abonada de forma completa.</p>
             </section>
 
+            <!-- Datos fiscales al pie -->
             <section class="bg-gray-100 p-4 rounded-lg border-l-4 border-[#40E0D0]">
                 <p class="text-[10px] text-gray-500 uppercase">
-                    Crazy Business S.L. | Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid).<br>
-                    Contacto: anonimonaranja@gmail.com | Tel: +34 652 74 81 75
+                    CRAZY BUSINESS S.L. | CIF: B22801138 | Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid).<br>
+                    Contacto de incidencias: anonimonaranja@gmail.com | Tel: +34 652 74 81 75
                 </p>
             </section>
         </div>
         
+        <!-- Pie del Modal -->
         <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl">
-            <button onclick="toggleModal('modalReparacion')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Cerrar</button>
+            <button onclick="toggleModal('modalReparacion')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg" aria-label="Entendido, cerrar condiciones de reparación">Entendido y cerrar</button>
         </div>
     </div>
 </div>
 
 <div id="modalVentaDetallada" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
     <div class="bg-white text-gray-800 max-w-5xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
+        
+        <!-- Cabecera del Modal -->
         <div class="p-6 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
             <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Condiciones Generales de Venta</h2>
-            <button onclick="toggleModal('modalVentaDetallada')" class="text-gray-400 hover:text-black text-3xl transition">×</button>
+            <button onclick="toggleModal('modalVentaDetallada')" class="text-gray-400 hover:text-black text-3xl transition" aria-label="Cerrar condiciones generales de venta">×</button>
         </div>
         
+        <!-- Cuerpo de las Condiciones -->
         <div class="p-6 md:p-10 text-sm space-y-6 text-justify modal-content overflow-y-auto" style="max-height: 75vh;">
-            <p class="italic text-gray-600">Las presentes condiciones se aplican a las ventas realizadas por <strong>CRAZY BUSINESS S.L.</strong>, con CIF B22801138 y domicilio en Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid), a través de esta página web.</p>
+            <p class="italic text-gray-600">Las presentes condiciones regulan la contratación de productos y herramientas a través del sitio web y vinculan jurídicamente al usuario con <strong>CRAZY BUSINESS S.L.</strong>, con NIF B22801138 y domicilio legal en Calle Los Cerezos 32, 28979 Serranillos del Valle (Madrid).</p>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Proceso de Pedido</h3>
-                <p>Para adquirir nuestras pistolas, barnices o pinturas, el cliente deberá añadir los productos a la "cesta". Es necesario registrarse con datos reales (nombre, dirección de envío y contacto). La venta se considerará definitiva una vez enviado el correo de confirmación y recibido el pago íntegro.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. Proceso de Contratación y Archivo</h3>
+                <p>Para adquirir nuestras pistolas, barnices o pinturas, el usuario deberá seleccionar los artículos, añadirlos al "carrito de compra" y rellenar el formulario con datos reales e íntegros de envío y facturación. El proceso concluye con la confirmación de pago. En cumplimiento del artículo 27 de la LSSI-CE, se informa de que el documento electrónico del contrato se archivará en nuestros sistemas informáticos internos, siendo accesible para el consumidor previa solicitud por email.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Productos y Stock</h3>
-                <p>Nuestros productos de pintura y barnices están sujetos a disponibilidad de stock. En caso de rotura de stock de un barniz o resina específica, contactaremos con el cliente para ofrecer una alternativa de similar calidad o el reembolso total. <strong>Nota importante:</strong> Es responsabilidad del cliente verificar la compatibilidad química de las pinturas y barnices con la superficie a tratar.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Disponibilidad de Stock y Fichas Técnicas</h3>
+                <p>Nuestros productos químicos y herramientas están sujetos a límites de stock. En caso de indisponibilidad sobrevenida de un barniz o resina, se comunicará de inmediato al usuario para acordar la sustitución por un producto equivalente o proceder al reembolso íntegro en un plazo máximo de 14 días. <strong>Responsabilidad técnica:</strong> El cliente declara conocer que trabaja con compuestos químicos de uso profesional. Es su estricta responsabilidad consultar las instrucciones y verificar la compatibilidad química de las pinturas con la superficie receptora antes de su mezcla o aplicación.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Tarifas y Pago</h3>
-                <p>Los precios se expresan en euros e incluyen IVA. Los gastos de envío se calcularán según el peso de los botes de pintura o equipos de pulverización. Crazy Business S.L. se reserva el derecho de modificar precios sin previo aviso, garantizando siempre el precio vigente en el momento de la validación del pedido.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Tarifas, IVA y Pago Seguro</h3>
+                <p>Los precios expuestos en la web se expresan en euros (€) e incluyen el Impuesto sobre el Valor Añadido (IVA) vigente en España. Los gastos de envío no están incluidos en el precio base y se calcularán de forma desglosada en el resumen de compra basándose en el peso de los envases o equipos y la dirección de entrega. Crazy Business S.L. se reserva el derecho de modificar sus tarifas de venta en cualquier momento, garantizando siempre al usuario el precio exacto que constaba en la web al validar su pedido.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Entrega de Materiales</h3>
-                <p>Realizamos envíos a toda la Península y Baleares. Debido a la naturaleza inflamable de algunas pinturas y barnices, el transporte se realiza cumpliendo la normativa vigente de mercancías. Si el producto llega con el precinto abierto o el envase dañado, el cliente debe hacerlo constar en el albarán del transportista.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Transporte de Mercancías y Plazos de Entrega</h3>
+                <p>Realizamos envíos a toda la Península Ibérica y las Islas Baleares. Debido a la naturaleza inflamable o peligrosa de ciertos botes de pintura y barnices, el transporte se realiza bajo las directrices de la normativa de mercancías especiales (ADR). El plazo estimado de entrega estándar es de <strong>24 a 72 horas laborables</strong>, sin superar en ningún caso el límite legal de 30 días. En el momento de la entrega, el cliente debe examinar el paquete; si el envase presenta fugas, abolladuras graves o el precinto abierto, deberá reflejar obligatoriamente dicha incidencia en el albarán del transportista y comunicárnoslo en un plazo de 24 horas.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Responsabilidad y Garantía</h3>
-                <p>Las pistolas de pintura cuentan con la garantía legal de 3 años. <strong>Exclusiones:</strong> No se aceptarán garantías por atascos debidos a una mala limpieza tras el uso, ni por mezclas de componentes químicos no recomendadas. Crazy Business S.L. no se hace responsable de los daños producidos por una aplicación incorrecta de los barnices o pinturas suministrados.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">5. Garantías y Exclusiones Técnicas</h3>
+                <p>Las herramientas de pulverización y pistolas de pintura disfrutan de la garantía legal de **3 años** frente a defectos de fabricación de origen. <strong>Exclusiones de garantía:</strong> No se cubrirán bajo ningún concepto las averías o fallos provocados por atascos derivados de una limpieza deficiente del utillaje tras su uso, desgaste natural de boquillas, ni por reacciones químicas adversas debido a mezclas con componentes no recomendados por el fabricante. Crazy Business S.L. declina toda responsabilidad por los resultados finales defectuosos derivados de una mala aplicación técnica de las pinturas.</p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Derecho de Desistimiento</h3>
-                <p>El cliente dispone de 14 días naturales para devolver el producto. <strong>Excepción:</strong> No se admitirá la devolución de pinturas personalizadas (colores a medida) o botes de barniz cuyo precinto de seguridad haya sido abierto, por motivos de protección de la salud y calidad del producto.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">6. Derecho de Desistimiento y Devoluciones</h3>
+                <p>Conforme a la Ley General de Defensa de los Consumidores y Usuarios, el comprador dispone de un plazo de **14 días naturales** para desistir de la compra sin necesidad de justificación. **Los gastos directos de devolución del producto correrán íntegramente por cuenta del comprador**.</p>
+                <p class="mt-2 text-red-700 bg-red-50 p-3 rounded-lg border border-red-200 text-xs">
+                    <strong>Excepciones legales al desistimiento:</strong> En virtud del artículo 103 de la citada ley, no se aceptará el desistimiento ni devolución de pinturas elaboradas a medida (colores personalizados mediante código de color específico para el cliente), ni de botes de barniz, resinas o catalizadores cuyos precintos térmicos o de seguridad hayan sido abiertos tras la entrega por razones obvias de protección de la salud, calidad del producto y riesgo de contaminación química.
+                </p>
             </section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">7. Protección de Datos</h3>
-                <p>Sus datos serán tratados por Crazy Business S.L. para la gestión del pedido y envío. Puede ejercer sus derechos de acceso, rectificación o supresión enviando un correo a <strong>anonimonaranja@gmail.com</strong>.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">7. Privacidad Básica</h3>
+                <p>Los datos de carácter personal facilitados durante el proceso de compra serán tratados por Crazy Business S.L. con la única finalidad de procesar el pago, emitir la factura legal y gestionar el envío logístico de los materiales. Puede obtener el detalle completo del tratamiento y conocer cómo ejercer sus derechos en nuestra Política de Privacidad.</p>
             </section>
 
+            <!-- Cláusula legal e idioma de litigios -->
             <section class="bg-gray-100 p-4 rounded-lg border-l-4 border-[#FF00FF]">
-                <p class="text-[10px] text-gray-500">
-                    Legislación aplicable: Reino de España. Jurisdicción: Juzgados y Tribunales del domicilio del consumidor.
+                <p class="text-[10px] text-gray-500 uppercase">
+                    Estas Condiciones de Venta se rigen por las leyes del Reino de España. Para la resolución de cualquier litigio derivado del presente contrato, las partes se someten a los Juzgados y Tribunales Tribunales de Navalcarnero (Madrid), salvo que la normativa de protección de consumidores establezca un fuero distinto en favor del usuario.
                 </p>
             </section>
         </div>
         
+        <!-- Pie del Modal -->
         <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl">
-            <button onclick="toggleModal('modalVentaDetallada')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Entendido, cerrar</button>
+            <button onclick="toggleModal('modalVentaDetallada')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg" aria-label="Entendido, cerrar condiciones de venta">Entendido y cerrar</button>
         </div>
     </div>
 </div>
 
 <div id="modalCookies" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
     <div class="bg-white text-gray-800 max-w-4xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
+        
+        <!-- Cabecera -->
         <div class="p-6 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
-            <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Política de Cookies</h2>
-            <button onclick="toggleModal('modalCookies')" class="text-gray-400 hover:text-black text-3xl transition">×</button>
+            <h2 class="font-crazy text-2xl text-[#40E0D0] uppercase">Política y Configuración de Cookies</h2>
+            <button onclick="toggleModal('modalCookies')" class="text-gray-400 hover:text-black text-3xl transition" aria-label="Cerrar panel de cookies">×</button>
         </div>
         
+        <!-- Cuerpo de las Cookies -->
         <div class="p-6 md:p-10 text-sm space-y-6 text-justify modal-content overflow-y-auto" style="max-height: 70vh;">
-            <div class="bg-gray-50 border-2 border-gray-200 rounded-xl overflow-hidden mb-8">
-                <div class="bg-gray-200 p-2 font-bold text-center uppercase text-xs tracking-widest">Información Básica sobre Cookies</div>
+            
+            <!-- Capa 1: Información Básica Obligatoria -->
+            <div class="bg-gray-50 border-2 border-gray-200 rounded-xl overflow-hidden mb-6">
+                <div class="bg-gray-200 p-2 font-bold text-center uppercase text-xs tracking-widest text-gray-700">Información Básica sobre Cookies</div>
                 <table class="w-full text-xs">
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100 w-1/3">Responsable</td>
-                        <td class="p-3">CRAZY BUSINESS S.L.</td>
+                        <td class="p-3"><strong>CRAZY BUSINESS S.L.</strong></td>
                     </tr>
                     <tr class="border-b border-gray-200">
                         <td class="p-3 font-bold bg-gray-100">Finalidad</td>
-                        <td class="p-3">Garantizar el funcionamiento técnico de la web, analizar hábitos de navegación y personalizar la experiencia del usuario.</td>
+                        <td class="p-3">Garantizar el funcionamiento técnico del e-commerce, elaborar estadísticas de rendimiento web y recordar preferencias del usuario.</td>
                     </tr>
-                    <tr class="border-b border-gray-200">
-                        <td class="p-3 font-bold bg-gray-100">Configuración</td>
-                        <td class="p-3">El usuario puede aceptar, rechazar o configurar las cookies en cualquier momento desde este panel o la configuración de su navegador.</td>
+                    <tr>
+                        <td class="p-3 font-bold bg-gray-100">Gestión</td>
+                        <td class="p-3">Puede marcar sus preferencias a continuación en el Panel de Configuración antes de guardar su elección.</td>
                     </tr>
                 </table>
             </div>
 
-            <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">1. ¿Qué son las Cookies?</h3>
-                <p>Una cookie es un pequeño archivo de texto que se descarga y almacena en su ordenador, smartphone o tableta al acceder a determinadas páginas web. Las cookies permiten a una plataforma, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo para mejorar el servicio ofrecido.</p>
-            </section>
+            <!-- Capa 2: Panel de Configuración Granular (Obligatorio por la AEPD) -->
+            <div class="space-y-4 bg-gray-50 p-4 rounded-xl border border-gray-200">
+                <h3 class="font-bold text-gray-900 uppercase text-xs tracking-wider border-b pb-1">Panel de Configuración Granular</h3>
+                
+                <!-- Técnicas -->
+                <div class="flex items-start justify-between gap-4 p-2 bg-white rounded-lg border">
+                    <div class="space-y-1">
+                        <span class="font-bold text-xs text-gray-900 uppercase">1. Cookies Técnicas e Imperativas</span>
+                        <p class="text-xs text-gray-500">Esenciales para que la web funcione (cesta de la compra, login de usuario, seguridad anti-fraude). No se pueden desactivar.</p>
+                    </div>
+                    <span class="text-xs font-bold text-green-600 bg-green-50 px-3 py-1 rounded-full uppercase border border-green-200 select-none">Siempre Activas</span>
+                </div>
+
+                <!-- Analíticas -->
+                <div class="flex items-start justify-between gap-4 p-2 bg-white rounded-lg border">
+                    <div class="space-y-1">
+                        <label for="cookie_analytics" class="font-bold text-xs text-gray-900 uppercase cursor-pointer">2. Cookies analíticas y de terceros</label>
+                        <p class="text-xs text-gray-500">Nos permiten medir el volumen de visitas de forma agregada, saber qué botes de pintura o productos llaman más la atención y optimizar el rendimiento técnico de la web, necesarias para habilitar herramientas interactivas externas como google maps.</p>
+                    </div>
+                    <input type="checkbox" id="cookie_analytics" class="w-5 h-5 accent-[#40E0D0] cursor-pointer rounded mt-1" aria-label="Permitir cookies analíticas">
+                </div>
+
+                <!-- Personalización -->
+                <div class="flex items-start justify-between gap-4 p-2 bg-white rounded-lg border">
+                    <div class="space-y-1">
+                        <label for="cookie_prefs" class="font-bold text-xs text-gray-900 uppercase cursor-pointer">3. Cookies de Personalización o Preferencias</label>
+                        <p class="text-xs text-gray-500">Utilizadas para recordar opciones de visualización del usuario, tales como el idioma predeterminado o la persistencia de elementos estéticos.</p>
+                    </div>
+                    <input type="checkbox" id="cookie_prefs" class="w-5 h-5 accent-[#40E0D0] cursor-pointer rounded mt-1" aria-label="Permitir cookies de personalización">
+                </div>
+            </div>
+
+            <!-- Capa 3: Información de Inventario y Detalle Técnico -->
+<!-- Tabla de inventario técnico requerida por la AEPD (Actualizada para Shopify y Google) -->
+<section>
+    <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Inventario Técnico de Cookies</h3>
+    <div class="overflow-x-auto mt-2">
+        <table class="w-full text-left text-xs border border-gray-200">
+            <thead>
+                <tr class="bg-gray-100 border-b border-gray-200">
+                    <th class="p-2 font-bold">Identificador</th>
+                    <th class="p-2 font-bold">Proveedor</th>
+                    <th class="p-2 font-bold">Finalidad</th>
+                    <th class="p-2 font-bold">Duración</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- COOKIES TÉCNICAS (PROPIAS Y SHOPIFY) -->
+                <tr class="border-b bg-gray-50/50">
+                    <td class="p-2 font-mono text-gray-600">cookie_policy / PHPSESSID</td>
+                    <td class="p-2">Propia</td>
+                    <td class="p-2"><span class="text-[10px] font-bold text-gray-500 uppercase mr-1">[Técnica]</span> Almacenar tus preferencias de privacidad y mantener la navegación básica.</td>
+                    <td class="p-2">1 año / Sesión</td>
+                </tr>
+                <tr class="border-b bg-gray-50/50">
+                    <td class="p-2 font-mono text-gray-600">_shopify_s / _shopify_y / shopify_cart</td>
+                    <td class="p-2">Shopify Inc.</td>
+                    <td class="p-2"><span class="text-[10px] font-bold text-gray-500 uppercase mr-1">[Técnica]</span> Gestión del carrito de la compra, procesamiento del pago seguro y mantenimiento de la sesión de usuario.</td>
+                    <td class="p-2">Sesión a 1 año</td>
+                </tr>
+                <tr class="border-b bg-gray-50/50">
+                    <td class="p-2 font-mono text-gray-600">secure_customer_sig / _ab</td>
+                    <td class="p-2">Shopify Inc.</td>
+                    <td class="p-2"><span class="text-[10px] font-bold text-gray-500 uppercase mr-1">[Seguridad]</span> Autenticación segura de clientes y prevención de fraudes en la pasarela de pago.</td>
+                    <td class="p-2">Hasta 2 años</td>
+                </tr>
+                <!-- COOKIES DE ANALÍTICA Y TERCEROS -->
+                <tr class="border-b">
+                    <td class="p-2 font-mono text-gray-600">_shopify_sa_p / _shopify_sa_t / _landing_page</td>
+                    <td class="p-2">Shopify Inc.</td>
+                    <td class="p-2"><span class="text-[10px] font-bold text-blue-500 uppercase mr-1">[Analítica]</span> Recopilación de estadísticas sobre el volumen de visitas, páginas vistas y rendimiento de la tienda.</td>
+                    <td class="p-2">30 min a 2 semanas</td>
+                </tr>
+                <tr>
+                    <td class="p-2 font-mono text-gray-600">NID / SID / APISID</td>
+                    <td class="p-2">Google Inc.</td>
+                    <td class="p-2"><span class="text-[10px] font-bold text-purple-500 uppercase mr-1">[Terceros]</span> Permite el correcto funcionamiento y renderizado del mapa interactivo de ubicación.</td>
+                    <td class="p-2">Hasta 2 años</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
 
             <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">2. Tipos de Cookies que Utilizábamos</h3>
-                <p>Esta página web utiliza diferentes tipos de cookies con finalidades específicas:</p>
-                <ul class="list-disc ml-5 mt-2 space-y-2">
-                    <li><strong>Cookies Técnicas o Necesarias:</strong> Son aquellas fundamentales para permitirle la navegación a través de la web y la utilización de las diferentes opciones o servicios que en ella existen (como controlar el tráfico y la comunicación de datos). Al ser obligatorias, no requieren su consentimiento.</li>
-                    <li><strong>Cookies de Análisis o Rendimiento:</strong> Son aquellas que nos permiten cuantificar el número de usuarios y realizar la medición y análisis estadístico de la utilización que hacen de nuestra web. Esto nos ayuda a optimizar el diseño, la oferta de productos y los servicios del taller.</li>
-                    <li><strong>Cookies de Personalización o Preferencias:</strong> Permiten recordar información para que el usuario acceda al servicio con determinadas características que pueden diferenciar su experiencia de la de otros usuarios (por ejemplo, el idioma o la región).</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">3. Plazos de Conservación</h3>
-                <p>Las cookies se clasifican también según su duración:</p>
-                <ul class="list-disc ml-5 mt-2 space-y-2">
-                    <li><strong>Cookies de Sesión:</strong> Diseñadas para recabar y almacenar datos mientras el usuario accede a la web. Se eliminan automáticamente al cerrar el navegador.</li>
-                    <li><strong>Cookies Persistentes:</strong> Los datos siguen almacenados en el terminal y pueden ser accedidos y tratados durante un periodo definido por el responsable de la cookie (que puede ir de unos minutos a varios años).</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">4. Cómo Desactivar o Gestionar las Cookies</h3>
-                <p>Usted puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador. Si no permite la instalación de cookies necesarias en su navegador, es posible que no pueda acceder a alguno de los servicios o que su experiencia de navegación se vea afectada.</p>
-                <p class="mt-2">Para ejercer sus derechos de privacidad específicos o resolver cualquier consulta técnica, puede consultar nuestra <a href="#" onclick="toggleModal('modalCookies'); toggleModal('modalPrivacidad'); return false;" class="text-[#40E0D0] underline font-bold">Política de Privacidad</a> o escribirnos a <strong>anonimonaranja@gmail.com</strong>.</p>
+                <h3 class="font-bold text-gray-900 uppercase mb-2 border-b-2 border-[#FF00FF] inline-block">Revocación y Configuración Alternativa</h3>
+                <p>Usted puede modificar o retirar sus consentimientos directamente desde los selectores de este panel en cualquier momento. Asimismo, la práctica totalidad de navegadores del mercado permiten bloquear, restringir o eliminar de raíz el histórico de cookies desde sus apartados de Configuración de Seguridad o Privacidad.</p>
+                <p class="mt-2">Para ampliar detalles sobre el tratamiento general de su información personal, acceda a nuestra <a href="#" onclick="toggleModal('modalCookies'); toggleModal('modalPrivacidad'); return false;" class="text-[#40E0D0] underline font-bold">Política de Privacidad</a> o contacte mediante: </strong> <a href="mailto:anonimonaranja@gmail.com" class="hover:text-[#40E0D0] transition">anonimonaranja@gmail.com.</a></p>
             </section>
         </div>
         
-        <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl flex justify-center gap-2 md:gap-4">
-            <button onclick="toggleModal('modalCookies')" class="bg-gray-300 text-gray-700 px-6 py-2 rounded-full font-bold uppercase text-xs hover:bg-gray-400 transition-all shadow-md">Solo Necesarias</button>
-            <button onclick="toggleModal('modalCookies')" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Aceptar Todas</button>
+        <!-- Pie del Modal con Funcionalidades de Guardado Lógicas -->
+        <div class="p-4 text-center border-t bg-gray-50 rounded-b-3xl flex flex-wrap justify-center gap-2 md:gap-4">
+            <!-- Botón para rechazar todo lo opcional -->
+            <button onclick="rejectAllCookies()" class="bg-gray-300 text-gray-700 px-6 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-md">Solo Técnicas</button>
+            
+            <!-- Botón para guardar lo que el usuario haya marcado en los checkboxes -->
+            <button onclick="saveCustomCookies()" class="bg-gray-600 text-white px-6 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-md">Guardar Selección</button>
+            
+            <!-- Botón para aceptar de golpe todo -->
+            <button onclick="acceptAllCookies()" class="bg-black text-white px-10 py-2 rounded-full font-bold uppercase text-xs hover:bg-[#FF00FF] transition-all shadow-lg">Aceptar Todas</button>
         </div>
     </div>
 </div>
@@ -687,7 +782,7 @@
                 </p>
             </div>
             <div class="flex flex-wrap justify-center gap-3 shrink-0">
-                <button onclick="toggleModal('modalOpcion')" class="bg-transparent text-gray-300 border border-gray-500 px-5 py-3 rounded-xl font-bold uppercase text-xs hover:bg-gray-800 transition-all">
+                <button onclick="toggleModal('modalCookies')" class="bg-transparent text-gray-300 border border-gray-500 px-5 py-3 rounded-xl font-bold uppercase text-xs hover:bg-gray-800 transition-all">
                     CONFIGURAR
                 </button>
                 <button onclick="rejectAllCookies()" class="bg-[#40E0D0] text-white px-6 py-3 rounded-xl font-bold uppercase text-xs hover:scale-105 transition-all shadow-[0_0_15px_rgba(64,224,208,0.4)]">
@@ -701,52 +796,8 @@
     </div>
 </div>
 
-<div id="modalOpcion" class="fixed inset-0 bg-black bg-opacity-90 z-[100000] hidden flex items-center justify-center p-4">
-    <div class="bg-white text-gray-800 max-w-2xl w-full rounded-3xl border-4 border-[#40E0D0] shadow-2xl overflow-hidden">
-        <div class="p-4 border-b flex justify-between items-center bg-gray-50 rounded-t-3xl">
-            <h2 class="font-crazy text-xl text-[#40E0D0] uppercase font-bold">Panel de Configuración de Cookies</h2>
-            <button onclick="toggleModal('modalOpcion')" class="text-gray-400 hover:text-black text-2xl transition">×</button>
-        </div>
-        
-        <div class="p-6 md:p-8 text-xs space-y-6 modal-content overflow-y-auto" style="max-height: 60vh;">
-            <p class="text-gray-600 text-justify">
-                A continuación, puede personalizar qué tipos de cookies permite activar en este sitio web. Sus opciones se guardarán de forma segura de acuerdo a la normativa de privacidad.
-            </p>
-
-            <div class="flex items-start justify-between p-4 bg-gray-50 rounded-2xl border border-gray-200 gap-4">
-                <div class="space-y-1">
-                    <h4 class="font-bold text-gray-900 text-sm">Cookies necesarias (Técnicas)</h4>
-                    <p class="text-gray-500">Imprescindibles para permitir la navegación básica, recordar tus opciones de privacidad y garantizar el correcto funcionamiento del sitio.</p>
-                </div>
-                <div class="flex items-center shrink-0">
-                    <span class="text-[10px] font-bold uppercase tracking-wider bg-gray-200 text-gray-600 px-2 py-1 rounded-md">Obligatorias</span>
-                </div>
-            </div>
-
-            <div class="flex items-start justify-between p-4 bg-gray-50 rounded-2xl border border-gray-200 gap-4">
-                <div class="space-y-1">
-                    <h4 class="font-bold text-gray-900 text-sm">Cookies analíticas y de terceros</h4>
-                    <p class="text-gray-500">Necesarias para habilitar herramientas interactivas externas. En este sitio web se utilizan exclusivamente para cargar el mapa interactivo de Google Maps.</p>
-                </div>
-                <label class="relative inline-flex items-center cursor-pointer select-none shrink-0 mt-1">
-                    <input type="checkbox" id="cookie_analytics" class="sr-only peer">
-                    <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#40E0D0]"></div>
-                </label>
-            </div>
-        </div>
-        
-        <div class="p-4 text-center border-t bg-gray-50 flex justify-end gap-3 rounded-b-3xl">
-            <button onclick="toggleModal('modalOpcion')" class="bg-gray-200 text-gray-800 px-5 py-2 rounded-full font-bold uppercase text-xs hover:bg-gray-300 transition-all">
-                Cancelar
-            </button>
-            <button onclick="saveCustomCookies()" class="bg-[#40E0D0] text-white px-8 py-2 rounded-full font-bold uppercase text-xs hover:scale-105 transition-all shadow-lg">
-                Guardar Selección
-            </button>
-        </div>
-    </div>
-</div>
-
 <script>
+// Función genérica para abrir y cerrar modales de forma limpia
 function toggleModal(id) {
     const modal = document.getElementById(id);
     if (modal) {
@@ -760,6 +811,7 @@ function toggleModal(id) {
     }
 }
 
+// Carga interactiva del mapa si hay consentimiento
 function loadGoogleMap() {
     const mapPlaceholder = document.getElementById('map-placeholder');
     const iframe = document.getElementById('google-map');
@@ -774,15 +826,23 @@ function loadGoogleMap() {
     }
 }
 
-function rejectAllCookies() {
+// Oculta el banner visualmente de forma segura
+function ocultarBanner() {
     const banner = document.getElementById('cookie-law-banner');
     if (banner) {
-        banner.classList.add('cookie-oculto');
+        banner.style.display = 'none'; // Reemplazo directo de la clase inexistente 'cookie-oculto'
     }
+}
+
+// ACCIÓN: Solo Técnicas (Rechazar opcionales)
+function rejectAllCookies() {
+    ocultarBanner();
     
     localStorage.setItem('crazy_cookies_decision', 'true');
     localStorage.setItem('cookie_analytics_allowed', 'false');
+    localStorage.setItem('cookie_prefs_allowed', 'false'); // Añadida consistencia
     
+    // Resetear mapa de Google Maps
     const mapPlaceholder = document.getElementById('map-placeholder');
     const iframe = document.getElementById('google-map');
     if (mapPlaceholder && iframe) {
@@ -791,40 +851,64 @@ function rejectAllCookies() {
         iframe.setAttribute('src', '');
     }
     
+    // Desmarcar los checkboxes del modal
     const analyticsInput = document.getElementById('cookie_analytics');
-    if (analyticsInput) {
-        analyticsInput.checked = false;
+    const prefsInput = document.getElementById('cookie_prefs');
+    if (analyticsInput) analyticsInput.checked = false;
+    if (prefsInput) prefsInput.checked = false;
+    
+    // Corregido: Cerrar el modal actual de cookies para liberar la pantalla
+    const modalCookies = document.getElementById('modalCookies');
+    if (modalCookies && !modalCookies.classList.contains('hidden')) {
+        toggleModal('modalCookies');
     }
     
-    console.log("Cookies rechazadas.");
+    console.log("Cookies opcionales rechazadas.");
 }
 
+// ACCIÓN: Aceptar todas las cookies de golpe
 function acceptAllCookies() {
-    const banner = document.getElementById('cookie-law-banner');
-    if (banner) {
-        banner.classList.add('cookie-oculto');
-    }
+    ocultarBanner();
     
     localStorage.setItem('crazy_cookies_decision', 'true');
     localStorage.setItem('cookie_analytics_allowed', 'true');
+    localStorage.setItem('cookie_prefs_allowed', 'true');
+    
+    // Marcar los checkboxes del panel por si el usuario vuelve a abrirlo
+    const analyticsInput = document.getElementById('cookie_analytics');
+    const prefsInput = document.getElementById('cookie_prefs');
+    if (analyticsInput) analyticsInput.checked = true;
+    if (prefsInput) prefsInput.checked = true;
+    
+    // Corregido: Cerrar el modal actual de cookies para liberar la pantalla
+    const modalCookies = document.getElementById('modalCookies');
+    if (modalCookies && !modalCookies.classList.contains('hidden')) {
+        toggleModal('modalCookies');
+    }
     
     console.log("Todas las cookies aceptadas.");
     loadGoogleMap();
 }
 
+// ACCIÓN: Guardar la selección granular del usuario
 function saveCustomCookies() {
-    const banner = document.getElementById('cookie-law-banner');
+    ocultarBanner();
+    
+    // Captura segura del estado de los checkboxes
     const analyticsChecked = document.getElementById('cookie_analytics')?.checked || false;
+    const prefsChecked = document.getElementById('cookie_prefs')?.checked || false;
 
     localStorage.setItem('crazy_cookies_decision', 'true');
     localStorage.setItem('cookie_analytics_allowed', analyticsChecked ? 'true' : 'false');
+    localStorage.setItem('cookie_prefs_allowed', prefsChecked ? 'true' : 'false');
 
-    if (banner) {
-        banner.classList.add('cookie-oculto');
+    // Corregido: Ahora apunta al modal correcto unificado 'modalCookies' en vez de 'modalOpcion'
+    const modalCookies = document.getElementById('modalCookies');
+    if (modalCookies && !modalCookies.classList.contains('hidden')) {
+        toggleModal('modalCookies');
     }
     
-    toggleModal('modalOpcion');
-    
+    // Evaluar estado del mapa interactivo según la decisión analítica
     if (analyticsChecked) {
         loadGoogleMap();
     } else {
@@ -839,23 +923,31 @@ function saveCustomCookies() {
     console.log("Preferencias de privacidad guardadas correctamente.");
 }
 
-// Comprobación al cargar la página garantizando que el HTML ya existe
+// Comprobación analítica al cargar el DOM de la página
 document.addEventListener('DOMContentLoaded', function() {
     const hasDecision = localStorage.getItem('crazy_cookies_decision');
-    const banner = document.getElementById('cookie-law-banner');
     const analyticsAllowed = localStorage.getItem('cookie_analytics_allowed');
-    const analyticsInput = document.getElementById('cookie_analytics');
+    const prefsAllowed = localStorage.getItem('cookie_prefs_allowed');
     
-    if (banner && hasDecision === 'true') {
-        banner.classList.add('cookie-oculto');
+    const analyticsInput = document.getElementById('cookie_analytics');
+    const prefsInput = document.getElementById('cookie_prefs');
+    
+    // Si ya tomó una decisión previa, no estorbar e inhabilitar el banner de entrada
+    if (hasDecision === 'true') {
+        ocultarBanner();
     }
 
+    // Inicializar el mapa de Google si estaba permitido
     if (analyticsAllowed === 'true') {
         loadGoogleMap();
     }
 
+    // Sincronizar visualmente los inputs con el almacenamiento del navegador
     if (analyticsInput) {
         analyticsInput.checked = (analyticsAllowed === 'true');
+    }
+    if (prefsInput) {
+        prefsInput.checked = (prefsAllowed === 'true');
     }
 });
 </script>
